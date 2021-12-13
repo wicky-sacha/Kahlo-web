@@ -1,0 +1,97 @@
+.image1{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.bandeau{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.container{
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.btn{
+    border: 4px solid #E18F01;
+    background: #ffa800;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Risque', cursive;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+}
+
+.btn1, .btn2{
+    color: white;
+}
+
+.btn1:hover, .btn2:hover{
+    border: 4px solid white;
+    color: white;
+    background: #1970A4;
+}
+
+.texte{
+    display: block;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.gotopbtn{
+    opacity: 50%;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background:rgb(189, 189, 189);
+    bottom: 40px;
+    right: 50px;
+    border-radius: 200px;
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+}
+
+h2, .txtglossaire{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: left;
+    color: white;
+    font-size: 1.25rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width:560px){
+    h2, .txtglossaire{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    h2{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .image1{
+        width: 80%;
+    }
+}

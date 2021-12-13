@@ -1,0 +1,140 @@
+/* NAV BAR */
+nav{
+    z-index: 9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #ffa800;
+    font-family: 'Risque', cursive;
+    margin-top: 0vh;
+}
+
+/* NO DECORATION WHITE LINKS */
+a{
+    text-decoration: none;
+    color: white;
+}
+/* FIN NO DECORATION WHITE LINKS */
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    color: white;
+    letter-spacing: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+.logo :hover{
+    text-shadow: 0px 0px 10px white;
+    cursor: pointer;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.nav-links li{
+    list-style: none;
+    opacity: 1;
+    transition: transform 5s ease;
+}
+
+.nav-links li a:hover{
+    color: #70B2BC;
+    font-weight: bold;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8vh;
+}
+
+.frida1{
+    margin-top: -2vh;
+    margin-bottom: 5vh;
+    width: 28%;
+}
+
+/* RESPONSIVE NAV BAR */
+@media screen and (max-width:1024px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #014A75;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.50s ease;
+    }
+    
+    .nav-links li{
+        opacity: 1;
+        height: 11vh;
+        transition: transform 5s ease;
+    }
+
+    .nav-links li a:hover{
+        color: white;
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .frida1{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:560px){
+    .frida1{
+        width: 80%;
+    }
+}
+
+.nav-active{
+    z-index: 9;
+    transform: translateX(0%);
+}
+/* FIN RESPONSIVE NAV BAR */
+/* FIN NAV BAR */
