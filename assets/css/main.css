@@ -17,6 +17,21 @@ body{
 }
 /* FIN CONVENTIONS */
 
+
+.box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8vh;
+}
+
+.frida1{
+    align-items: center;
+    margin-top: -2vh;
+    margin-bottom: 5vh;
+    width: 28%;
+}
+
 .container{
     text-align: center;
     margin-top: 1vh;
@@ -79,6 +94,9 @@ body{
         border-radius: 20px 20px 0 0;
         width: 100%;
     }
+    .frida1{
+        margin-left: 10vw;
+    }
 }
 
 @media(max-width: 574px){
@@ -86,6 +104,7 @@ body{
         border-radius: 20px 20px 0 0;
         width: 100%;
     }
+    
 }
 /*FIN RESPONSIVE IMAGES ARTICLE*/
 
