@@ -164,9 +164,13 @@ blockquote{
 @media screen and (max-width:560px){
     .boxtitle{
         font-size: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
     .history-select{
         font-size: 1rem;
         padding: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 }
