@@ -113,3 +113,50 @@ blockquote{
     color: white;
     font-weight: 1000;
 }
+
+.history-select{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    text-align: left;
+    color: white;
+    font-size: 2rem;
+    border: 4px solid white;
+    background: #1970A4;
+    padding: 5rem;
+    cursor: pointer;
+}
+
+.boxtitle{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 0;
+    padding: 1rem;
+    border: 4px solid white;
+    background: #ffa800;
+    font-size: 3rem;
+    cursor: pointer;
+    font-family: 'Risque', cursive;
+}
+
+.boxtitle:hover, .history-select:hover{
+    border: 4px solid white;
+    color: white;
+    background: #E18F01;
+}
+
+.boxtitle{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 4px solid white;
+    background: #ffa800;
+    font-size: 3rem;
+    cursor: pointer;
+    font-family: 'Risque', cursive;
+    text-align: center;
+}
