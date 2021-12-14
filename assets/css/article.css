@@ -163,7 +163,15 @@ blockquote{
     text-align: center;
 }
 
-@media screen and (max-width:560px){
+.frize{
+    text-align: center;
+}
+
+.frizeimg{
+    width: 40%;
+}
+
+@media screen and (max-width:760px){
     .boxtitle{
         font-size: 2rem;
         margin-left: 2rem;
@@ -179,5 +187,9 @@ blockquote{
     .boxtitle2{
         margin-bottom: 1rem;
         font-size: 2rem;
+    }
+
+    .frizeimg{
+        width: 65%;
     }
 }

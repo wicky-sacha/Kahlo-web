@@ -21,14 +21,11 @@ body{
 .box1{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    text-align: center;
     margin-top: 8vh;
 }
 
 .frida1{
-    align-items: center;
-    margin-top: -2vh;
-    margin-bottom: 2vh;
     width: 28%;
 }
 
