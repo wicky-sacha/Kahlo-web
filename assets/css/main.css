@@ -104,18 +104,19 @@ body{
         width: 40%;
     }
 
-    iframe{
-        width: 560;
-        height: 315;
+    .video{
+        width: 445px;
+        height: 250px;
     }
+    
 }
 
 @media(max-width: 574px){
+    
     .article-image img{
         border-radius: 20px 20px 0 0;
         width: 100%;
     }
-    
 }
 /*FIN RESPONSIVE IMAGES ARTICLE*/
 
