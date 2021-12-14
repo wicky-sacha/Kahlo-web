@@ -95,13 +95,18 @@ body{
         border-radius: 20px 20px 0 0;
         width: 100%;
     }
-    
+
     .frida1{
         margin-left: 10vw;
     }
 
     .me{
         width: 40%;
+    }
+
+    iframe{
+        width: 560;
+        height: 315;
     }
 }
 
