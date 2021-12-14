@@ -171,6 +171,10 @@ blockquote{
     width: 40%;
 }
 
+.me{
+    width: 20%;
+}
+
 @media screen and (max-width:760px){
     .boxtitle{
         font-size: 2rem;
@@ -191,5 +195,9 @@ blockquote{
 
     .frizeimg{
         width: 65%;
+    }
+
+    .me{
+        width: 40%;
     }
 }
